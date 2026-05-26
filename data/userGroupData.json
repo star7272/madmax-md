@@ -1,0 +1,23 @@
+{
+  "antibadword": {},
+  "antilink": {},
+  "welcome": {
+    "120363407724058826@g.us": {
+      "enabled": true,
+      "message": "Welcome {user} to {group}! 🎉",
+      "channelId": "120363367299421766@newsletter"
+    }
+  },
+  "goodbye": {
+    "120363407724058826@g.us": {
+      "enabled": true,
+      "message": "Goodbye {user} 👋",
+      "channelId": "120363367299421766@newsletter"
+    }
+  },
+  "chatbot": {},
+  "warnings": {},
+  "sudo": [
+    "254738017513@s.whatsapp.net"
+  ]
+}
