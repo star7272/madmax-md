@@ -1,7 +1,7 @@
 {
   "name": "MADMAX MD",
   "description": "A powerful WhatsApp multi-device bot by SKILLI TECH",
-  "repository": "https://github.com/Nabaikabaia/Batman-md",
+  "repository": "https://github.com/star7272/madmax-md",
   "logo": "https://files.catbox.moe/41bmmf.png",
   "keywords": ["whatsapp-bot", "baileys", "nodejs", "bot", "whatsapp"],
   "env": {
