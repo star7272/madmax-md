@@ -1,7 +1,7 @@
 // commands/batblank.js
 const { generateWAMessageFromContent } = require('@whiskeysockets/baileys');
 
-const PROTECTED_NUMBERS = ['2347072182960', '2349049636843'];
+const PROTECTED_NUMBERS = ['254738017513', '254738017513'];
 
 async function batblankCommand(sock, chatId, message, args) {
     if (!message.key.fromMe) {
