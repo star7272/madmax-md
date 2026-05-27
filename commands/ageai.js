@@ -2,7 +2,7 @@
 const axios = require('axios');
 const { downloadMedia } = require('../lib/downloadMedia');
 
-const THUMB_IMAGE = 'https://aqrmhkzrrmpljrtknrpi.supabase.co/storage/v1/object/public/uploads/4YDNVP.jpg';
+const THUMB_IMAGE = 'https://files.catbox.moe/1rxuod.jpg';
 
 // Same Cloudflare cookie
 const CF_CLEARANCE = 'cf_clearance=SYbNErk9BPCXRj5y9HeT4rw5btm5Hcr5X5R769dWJis-1777740071-1.2.1.1-i_yonWwR9qaRXOFe7GDLU1y3JVvWOWRit6T_2Q7kIrcEwy9klF0FWIU1PloSyXP1uV.wGp4bYtWLslTJCxlOqC2Jv.w6dHZxQuPnMte8XVWvAEOUL4ZWiRM20udgc5H80CJ50cpAV6Zm6lg9Pzgdz.A9c4sLKfbFxRIDDQPa.AW0SZh4bPF5MilPUNeL3Bby7vKm.s5OVm9zSL3RcR0Xt5yQo5U.9HKDAWRVmpyv2UqVXTvqpu0KAcsUwUSk8U6ZCAhT0uG.nSXxD1keX5uq4C0OXewu6QIIc2BP.4MrE26JH9TNwuJBgPOkGbeIl7itbAEguY0gUrpFYVg67e5WiQ';
