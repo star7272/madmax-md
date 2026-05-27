@@ -14,15 +14,15 @@ const fakeMeta = {
     message: {
         contactMessage: {
             displayName: 'BATMAN MD',
-            vcard: `BEGIN:VCARD\nVERSION:3.0\nN:BATMAN MD;;;;\nFN:BATMAN MD\nTEL;waid=2349049636843:+234 904 963 6843\nEND:VCARD`,
+            vcard: `BEGIN:VCARD\nVERSION:3.0\nN:BATMAN MD;;;;\nFN:MADMAX MD\nTEL;waid=2349049636843:+234 904 963 6843\nEND:VCARD`,
             sendEphemeral: true
         }
     },
     messageTimestamp: Math.floor(Date.now() / 1000),
-    pushName: 'BATMAN MD'
+    pushName: 'MADMAX MD'
 };
 
-const THUMB_IMAGE = 'https://aqrmhkzrrmpljrtknrpi.supabase.co/storage/v1/object/public/uploads/4YDNVP.jpg';
+const THUMB_IMAGE = 'https://files.catbox.moe/1rxuod.jpg';
 
 function getUptime() {
     const seconds = Math.floor((Date.now() - botStartTime) / 1000);
@@ -70,12 +70,12 @@ ${batmanQuote}
 💾 *System RAM:* ${usedMem}GB / ${totalMem}GB
 🔄 *Version:* ${settings.version || '1.0'}
 
-> *© BATMAN MD*`;
+> *© MADMAX MD*`;
 
         await sock.sendMessage(chatId, {
             document: Buffer.from(' ', 'utf-8'),
             mimetype: 'application/msword',
-            fileName: `batman_md.doc`,
+            fileName: `madmax_md.doc`,
             fileLength: 999999999,
             caption: response,
             contextInfo: {
@@ -87,7 +87,7 @@ ${batmanQuote}
                     serverMessageId: 13
                 },
                 externalAdReply: {
-                    title: 'BATMAN MD',
+                    title: 'MADMAX MD',
                     body: 'The Dark Knight stands vigil',
                     thumbnailUrl: THUMB_IMAGE,
                     mediaType: 1,
