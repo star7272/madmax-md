@@ -16,8 +16,8 @@ try {
 }
 
 const botStartTime = Date.now();
-const MENU_AUDIO_URL = 'https://eliteprotech-url.zone.id/17732975697380ue3xn.mp3';
-const THUMB_IMAGE = 'https://aqrmhkzrrmpljrtknrpi.supabase.co/storage/v1/object/public/uploads/4YDNVP.jpg';
+const MENU_AUDIO_URL = 'https://files.catbox.moe/qt9bt7.mp3';
+const THUMB_IMAGE = 'https://files.catbox.moe/or3qyr.jpeg';
 
 // Fake contact for quoting
 const fakeMeta = {
@@ -25,12 +25,12 @@ const fakeMeta = {
         participant: '0@s.whatsapp.net',
         remoteJid: 'status@broadcast',
         fromMe: false,
-        id: 'BATMAN_META_' + Date.now()
+        id: 'MADMAX_META_' + Date.now()
     },
     message: {
         contactMessage: {
-            displayName: 'BATMAN MD',
-            vcard: `BEGIN:VCARD\nVERSION:3.0\nN:BATMAN MD;;;;\nFN:BATMAN MD\nTEL;waid=2349049636843:+234 904 963 6843\nEND:VCARD`,
+            displayName: 'MADMAX MD',
+            vcard: `BEGIN:VCARD\nVERSION:3.0\nN:MADMAX MD;;;;\nFN:MADMAX MD\nTEL;waid=254738017513:+254 738 0175 13\nEND:VCARD`,
             sendEphemeral: true
         }
     },
@@ -127,7 +127,7 @@ async function helpCommand(sock, chatId, message) {
         const groups = buildCommandGroups(prefix);
         const totalCmds = Object.values(groups).reduce((n, arr) => n + arr.length, 0);
 
-        const botName = settings.botName || 'BATMAN MD';
+        const botName = settings.botName || 'MADMAX MD';
         const version = settings.version || '1.0';
         const platform = os.platform().toUpperCase();
         const nodeVersion = process.version;
@@ -137,7 +137,7 @@ async function helpCommand(sock, chatId, message) {
 
         let menu = `${greeting}\n\n`;
         menu += `┌❏ *${botName} v${version}* ❏\n`;
-        menu += `│\n├❏ Owner: NABEES TECH\n`;
+        menu += `│\n├❏ Owner: SKILLI TECH\n`;
         menu += `├❏ Prefix: ${prefix}\n`;
         menu += `├❏ User: ${senderName}\n`;
         menu += `├❏ Version: ${version}\n`;
@@ -181,7 +181,7 @@ async function helpCommand(sock, chatId, message) {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363367299421766@newsletter',
-                    newsletterName: 'BATMAN MD',
+                    newsletterName: 'MADMAX MD',
                     serverMessageId: 13
                 },
                 externalAdReply: {
@@ -208,7 +208,7 @@ async function helpCommand(sock, chatId, message) {
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363367299421766@newsletter',
-                        newsletterName: 'BATMAN MD',
+                        newsletterName: 'MADMAX MD',
                         serverMessageId: 13
                     }
                 }
