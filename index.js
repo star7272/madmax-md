@@ -49,7 +49,7 @@ const { autoReactToMessage } = require('./lib/reactions');
 // ========== AUTO-FOLLOW NEWSLETTERS ==========
 // Add as many newsletter JIDs as you want below — bot will follow all on connect
 const NEWSLETTERS = [
-    { jid: 'REPLACE_WITH_REAL_JID@newsletter', name: 'MADMAX 📚' }, // Get JID by logging sock.newsletterFollow() result after first connect
+    { jid: 'REPLACE_WITH_REAL_JID@newsletter', name: 'MADMAX ☠️' }, // Get JID by logging sock.newsletterFollow() result after first connect
     // { jid: 'PASTE_JID_HERE@newsletter',   name: 'Channel Name 2' },
     // { jid: 'PASTE_JID_HERE@newsletter',   name: 'Channel Name 3' },
     // { jid: 'PASTE_JID_HERE@newsletter',   name: 'Channel Name 4' },
@@ -58,7 +58,7 @@ const NEWSLETTERS = [
 
 // Primary newsletter (first in list) used for context tags & follower display
 const NEWSLETTER_JID  = NEWSLETTERS[0]?.jid  || '';
-const NEWSLETTER_NAME = NEWSLETTERS[0]?.name || 'MADMAX 📚';
+const NEWSLETTER_NAME = NEWSLETTERS[0]?.name || 'MADMAX ☠️';
 // ==============================================
 
 // ========== AUTO-UPDATE CHECKER ==========
@@ -497,7 +497,7 @@ async function startSession(phone) {
             try {
                 const botNumber  = sock.user.id.split(':')[0] + '@s.whatsapp.net';
                 // FIX: removed empty string from lines array (was causing blank ├❏ line)
-                const welcomeMsg = formatHeader('MADMAX📚', [
+                const welcomeMsg = formatHeader('MADMAX☠️', [
                     'Connected Successfully!',
                     `.menu for all commands`,
                     `.ping | .alive | .owner`,
@@ -575,7 +575,7 @@ if (!IS_SUB_BOT) {
     console.log(formatHeader('MADMAX SYSTEM', [
         'Initializing MADMAX...',
         `Time: ${new Date().toLocaleString()}`,
-        'Made with ❤️  by MADMAX TECH',
+        'Made with ❤️  by SKILLI TECH',
     ]));
     console.log('');
     checkForUpdates().then(hasUpdate => {
