@@ -262,7 +262,7 @@ app.use(express.static(__dirname));
 app.get('/health', (req, res) => res.json({
     success:      true,
     uptime:       Math.floor(process.uptime()),
-    botName:      settings.botName || 'MADMAX,
+    botName:      settings.botName || 'MADMAX',
     activeBots:   sessions.size,
     newsletter:   NEWSLETTER_JID,
     timestamp:    new Date().toISOString(),
